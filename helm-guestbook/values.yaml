@@ -24,7 +24,7 @@ ingress:
   path: /
   hosts:
     - samplecd.deleo.co.kr
-  tls: []
+  tls:
    - secretName: chart-example-tls
      hosts:
        - samplecd.deleo.co.kr
